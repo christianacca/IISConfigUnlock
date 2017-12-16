@@ -1,0 +1,9 @@
+site_name: IISConfigUnlock
+repo_url: https://github.com/christianacca/IISConfigUnlock
+theme: readthedocs
+pages:
+  - Home: index.md
+  - IISConfigUnlock Basics:
+    - What is IISConfigUnlock: about.md
+    - Quick Start: Quick-Start-Installation-and-Example.md
+  - Acknowledgements: acknowledgements.md
