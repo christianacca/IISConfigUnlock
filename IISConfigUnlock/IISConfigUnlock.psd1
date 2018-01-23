@@ -12,7 +12,7 @@
 RootModule = 'IISConfigUnlock.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1.0'
+ModuleVersion = '1.0.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -27,7 +27,7 @@ Author = 'christianacca'
 CompanyName = ''
 
 # Copyright statement for this module
-Copyright = '(c) 2017 christianacca. All rights reserved.'
+Copyright = '(c) 2018 christianacca. All rights reserved.'
 
 # Description of the functionality provided by this module
 Description = 'Cmdlets used to unlock IIS config sections'
@@ -100,7 +100,7 @@ PrivateData = @{
         Tags = 'IIS'
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://github.com/christianacca/IISConfigUnlock/blob/master/LICENSE'
 
         # A URL to the main website for this project.
         ProjectUri = 'https://github.com/christianacca/IISConfigUnlock'
@@ -112,7 +112,7 @@ PrivateData = @{
         # ReleaseNotes = ''
 
         # External dependent modules of this module
-        ExternalModuleDependencies = @('PreferenceVariables', 'IISAdministration')
+        # ExternalModuleDependencies = @()
 
     } # End of PSData hashtable
     
