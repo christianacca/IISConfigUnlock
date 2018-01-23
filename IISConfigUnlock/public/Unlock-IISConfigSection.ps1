@@ -21,7 +21,7 @@ function Unlock-IISConfigSection {
     Save changes to IIS immediately? Defaults to true
     
     .EXAMPLE
-    Unlock-CaccaIISAnonymousAuth -SectionPath 'system.webServer/security/authentication/anonymousAuthentication'
+    Unlock-CaccaIISConfigSection -SectionPath 'system.webServer/security/authentication/anonymousAuthentication'
 
     Description
     -----------
@@ -35,13 +35,14 @@ function Unlock-IISConfigSection {
             Location    = $_.Name
             Commit      = $false
         }
-        Unlock-CaccaIISAnonymousAuth @params
+        Unlock-CaccaIISConfigSection @params
     }
 
     Description
     -----------
     Unlock 'anonymousAuthentication' section for the 'MySite' being created by the 
-    New-CaccaIISWebsite command
+    New-CaccaIISWebsite command.
+    Equivalent to: Unlock-CaccaIISAnonymousAuth
 
     #>
     [CmdletBinding()]
