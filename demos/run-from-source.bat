@@ -1,1 +1,0 @@
-start powershell -NoExit -ExecutionPolicy Bypass -NoLogo -File %~dp0\run-from-source.ps1 %~dp0
